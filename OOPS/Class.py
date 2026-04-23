@@ -1,44 +1,44 @@
-# class MyClass:
-#     name = "Thirumal"
-#     age = 21
-#     def student(self):
-#         print(self.name)
-#         print(self.age)   
-# a=MyClass()
-# a.student()
-# print(a)
+class MyClass:
+    name = "Thirumal"
+    age = 21
+    def student(self):
+        print(self.name)
+        print(self.age)   
+a=MyClass()
+a.student()
+print(a)
 
-# class MyClass:
-#     name = "Thirumal"
-#     age = 21
-#     def student(self):
-#         print(self.name)
-#         print(self.age)   
-# print(MyClass())
-# print(MyClass().student())
-
-
-
-# class Student:
-#     age = 21
-#     name = "Vamshi"
-
-#     def __init__(self,n,a,c,l):
-#         self.name=n
-#         self.age =a
+class MyClass:
+    name = "Thirumal"
+    age = 21
+    def student(self):
+        print(self.name)
+        print(self.age)   
+print(MyClass())
+print(MyClass().student())
 
 
-#     def StudentDetails(self,n,a):
-#         print(n,a)
 
-#     def CollegeDetails(self):
-#         cName = "Malla Reddy University"
-#         cLoc = "Hyderabad"
-#         print(cName,cLoc)
+class Student:
+    age = 21
+    name = "Vamshi"
 
-# o = Student("Vamshi",27,"Malla Reddy University","Hyd")
-# o.StudentDetails("Thirumal",21)
-# o.CollegeDetails()
+    def __init__(self,n,a,c,l):
+        self.name=n
+        self.age =a
+
+
+    def StudentDetails(self,n,a):
+        print(n,a)
+
+    def CollegeDetails(self):
+        cName = "Malla Reddy University"
+        cLoc = "Hyderabad"
+        print(cName,cLoc)
+
+o = Student("Vamshi",27,"Malla Reddy University","Hyd")
+o.StudentDetails("Thirumal",21)
+o.CollegeDetails()
 
 
 # Create a class Student with:
@@ -57,20 +57,20 @@
 # Call set_details()
 # Call display()
 
-# class Student():
-#     school_name = "XYZ School"
+class Student():
+    school_name = "XYZ School"
 
-#     def set_details(self):
-#         self.Name = "Vamsi"
-#         self.Marks = 85
+    def set_details(self):
+        self.Name = "Vamsi"
+        self.Marks = 85
 
-#     def display(self):
-#         print(self.Name)
-#         print(self.Marks)
-#         print(self.school_name)
-# a=Student()
-# a.set_details()
-# a.display()
+    def display(self):
+        print(self.Name)
+        print(self.Marks)
+        print(self.school_name)
+a=Student()
+a.set_details()
+a.display()
 
 
 
@@ -92,25 +92,25 @@
 # Call all methods
 
 
-# class Employee:
-#     company = "Infosys"
+class Employee:
+    company = "Infosys"
 
-#     def set_data(self):
-#         self.name = "Ravi"
-#         self.salary = 20000
+    def set_data(self):
+        self.name = "Ravi"
+        self.salary = 20000
 
-#     def increase_salary(self):
-#         self.salary+=5000
+    def increase_salary(self):
+        self.salary+=5000
 
-#     def display(self):
-#         print(self.name)
-#         print(self.salary)
-#         print(self.company)
+    def display(self):
+        print(self.name)
+        print(self.salary)
+        print(self.company)
 
-# a = Employee()
-# a.set_data()
-# a.increase_salary()
-# a.display()
+a = Employee()
+a.set_data()
+a.increase_salary()
+a.display()
 
 
 
